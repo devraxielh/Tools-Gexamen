@@ -117,36 +117,48 @@ const GeneradorExamen = () => {
     return filas;
   };
 
+  // Codificar respuestas en Base64
+  const codificarRespuestas = (respuestas) => {
+    const jsonRespuestas = JSON.stringify(respuestas);
+    const encodedRespuestas = btoa(jsonRespuestas); // Codifica en Base64
+    return encodedRespuestas;
+  };
+
   const generarDocumentoWord = () => {
     const doc = new Document({
-      sections: examenes.map((examen, examenIndex) => ({
-        properties: {
-          page: {
-            margin: {
-              top: 720, // 0.5 inch
-              right: 720, // 0.5 inch
-              bottom: 720, // 0.5 inch
-              left: 720, // 0.5 inch
+      sections: examenes.map((examen, examenIndex) => {
+        // Obtener las respuestas correctas del examen
+        const respuestas = examen.map((pregunta) => pregunta.respuestaCorrecta);
+        const token = codificarRespuestas(respuestas); // Codificar en Base64
+
+        return {
+          properties: {
+            page: {
+              margin: {
+                top: 720, // 0.5 inch
+                right: 720, // 0.5 inch
+                bottom: 720, // 0.5 inch
+                left: 720, // 0.5 inch
+              },
             },
           },
-        },
-        children: [
-          new Paragraph({
-            text: `${nombreExamen}  Nombre: ______________________________________ Fecha ___/___/___`, // Se muestra el nombre del examen extraído del JSON
-            heading: 'Heading4',
-            spacing: {
-              after: 100,
-            },
-          }),
-          // Tabla de dos columnas con las preguntas y opciones
-          new Table({
-            rows: dividirPreguntasEnColumnas(examen),
-          }),
-          new Paragraph({
-            children: [new PageBreak()],
-          }),
-        ],
-      })),
+          children: [
+            new Paragraph({
+              text: `${nombreExamen}  Nombre: ______________________________________ Fecha ___/___/___`,
+              heading: 'Heading4',
+              spacing: {
+                after: 100,
+              },
+            }),
+            new Table({
+              rows: dividirPreguntasEnColumnas(examen),
+            }),
+            new Paragraph({
+              children: [new PageBreak()],
+            }),
+          ],
+        };
+      }),
     });
 
     Packer.toBlob(doc)
