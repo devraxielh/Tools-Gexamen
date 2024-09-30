@@ -17,20 +17,7 @@ const About = () => {
             <div className="md:w-7/10">
             <h4 className="text-lg font-semibold mb-2">{aboutData.sectionTitle}</h4>
             <p className="mb-2">{aboutData.description}</p>
-            <p className="mb-2">{aboutData.structureTitle}</p>
-            <ol className="list-decimal list-inside mb-2">
-                {aboutData.structure.map((item, index) => (
-                <li key={index}><strong>{item.split(":")[0]}:</strong> {item.split(":")[1]}</li>
-                ))}
-            </ol>
-            <p className="mb-2">{aboutData.targetAudience}</p>
-            <br></br>
-            <h4 className="text-lg font-semibold mb-3">{aboutData.learningOutcomesTitle}</h4>
-            <ol className="list-decimal list-inside mb-2">
-                {aboutData.learningOutcomes.map((outcome, index) => (
-                <li key={index}><strong>{outcome.split(" ")[0]} </strong>{outcome.slice(outcome.indexOf(" "))}</li>
-                ))}
-            </ol>
+
             </div>
         </div>
         </div>

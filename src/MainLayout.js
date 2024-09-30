@@ -5,7 +5,7 @@ const MainLayout = ({ appName, activeSection, setActiveSection, renderContent })
         <div className="flex flex-col min-h-screen bg-gray-100">
         <nav className="bg-blue-600 text-white p-4">
             <ul className="flex justify-center space-x-4">
-            {['animación', 'acerca de'].map((section, index) => (
+            {['generador', 'acerca de'].map((section, index) => (
                 <li key={section}>
                 <button
                     className={`px-3 py-2 rounded ${activeSection === section ? 'bg-blue-800' : 'hover:bg-blue-700'}`}

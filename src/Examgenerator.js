@@ -179,7 +179,7 @@ const GeneradorExamen = () => {
           id="numPreguntas"
           value={numPreguntas}
           onChange={(e) => setNumPreguntas(Math.min(Math.max(1, parseInt(e.target.value) || 1), preguntas.length))}
-          className="border rounded px-2 py-1"
+          className="border rounded px-6 py-2"
           min="3"
           max={preguntas.length}
         />
