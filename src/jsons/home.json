@@ -1,0 +1,9 @@
+{
+    "imageSrc": "./assets/arbol-decision.jpg",
+    "imageAlt": "Imagen de un Árbol de Decisión",
+    "title": "¿Qué es un Árbol de Decisión?",
+    "description": [
+        "Un árbol de decisión es un modelo utilizado en aprendizaje automático que se organiza en forma de árbol, donde cada nodo interno representa una 'prueba' o 'condición' en un atributo, cada rama representa el resultado de la prueba, y cada hoja representa una clase o una predicción final. Es una herramienta poderosa para la clasificación y la regresión, facilitando la toma de decisiones basada en datos de una manera interpretativa y fácil de entender.",
+        "Los árboles de decisión son ampliamente utilizados en aplicaciones como el diagnóstico médico, la evaluación del riesgo crediticio, y la clasificación de clientes en marketing, debido a su capacidad para manejar tanto datos categóricos como numéricos."
+    ]
+}

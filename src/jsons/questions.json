@@ -1,0 +1,52 @@
+[
+    {
+        "question": "¿Cuál es el propósito principal de un árbol de decisión en el aprendizaje automático?",
+        "options": [
+            "Optimización de datos",
+            "Detección de anomalías",
+            "Clasificación y predicción",
+            "Compresión de datos"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "¿Qué estructura sigue un árbol de decisión?",
+        "options": [
+            "Lineal",
+            "Jerárquica",
+            "Matriz",
+            "Circular"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "¿Qué representa una hoja en un árbol de decisión?",
+        "options": [
+            "Un nodo de decisión",
+            "Un camino sin salida",
+            "Una característica o atributo",
+            "Un resultado o predicción final"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "¿Qué criterio se usa comúnmente para dividir los nodos en un árbol de decisión?",
+        "options": [
+            "Algoritmo K-means",
+            "Índice de Gini o entropía",
+            "Regresión lineal",
+            "Algoritmo de Dijkstra"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "¿Cuál de las siguientes NO es una ventaja de los árboles de decisión?",
+        "options": [
+            "Fácil interpretación",
+            "Manejo de datos categóricos y numéricos",
+            "Fácil de visualizar",
+            "Alta precisión en grandes conjuntos de datos"
+        ],
+        "correctAnswer": 3
+    }
+]
