@@ -1,0 +1,405 @@
+{
+    "nombreExamen": "Aprendizaje Computacional",
+    "preguntas": [
+      {
+        "pregunta": "¿Cuál es el propósito principal de un modelo de Machine Learning?",
+        "opciones": [
+          "Optimización de datos",
+          "Detección de anomalías",
+          "Clasificación y predicción",
+          "Compresión de datos"
+        ],
+        "respuestaCorrecta": "Clasificación y predicción"
+      },
+      {
+        "pregunta": "¿Qué estructura sigue un modelo de aprendizaje supervisado?",
+        "opciones": [
+          "Lineal",
+          "Jerárquica",
+          "Matriz",
+          "Relacional"
+        ],
+        "respuestaCorrecta": "Lineal"
+      },
+      {
+        "pregunta": "¿Qué representa un conjunto de datos de entrenamiento en Machine Learning?",
+        "opciones": [
+          "Datos sin etiquetas para agrupar",
+          "Datos de entrada con salidas conocidas",
+          "Un conjunto de datos de prueba",
+          "Datos irrelevantes para el modelo"
+        ],
+        "respuestaCorrecta": "Datos de entrada con salidas conocidas"
+      },
+      {
+        "pregunta": "¿Qué criterio se usa comúnmente para evaluar la precisión de un modelo de clasificación?",
+        "opciones": [
+          "Error cuadrático medio (MSE)",
+          "Precisión y recall",
+          "Entropía de Shannon",
+          "Índice de Gini"
+        ],
+        "respuestaCorrecta": "Precisión y recall"
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes NO es una etapa en el proceso de Machine Learning?",
+        "opciones": [
+          "Recopilación de datos",
+          "Preprocesamiento de datos",
+          "Entrenamiento del modelo",
+          "Compresión de los datos"
+        ],
+        "respuestaCorrecta": "Compresión de los datos"
+      },
+      {
+        "pregunta": "¿Cuál es la principal ventaja del Machine Learning frente a los algoritmos tradicionales?",
+        "opciones": [
+          "Mayor velocidad en la ejecución",
+          "Adaptación automática a nuevos datos",
+          "Menor uso de memoria",
+          "Mayor facilidad de programación"
+        ],
+        "respuestaCorrecta": "Adaptación automática a nuevos datos"
+      },
+      {
+        "pregunta": "¿Qué técnica es comúnmente utilizada para evitar el sobreajuste (overfitting) en los modelos de Machine Learning?",
+        "opciones": [
+          "Aumento de datos (Data Augmentation)",
+          "Eliminación de características",
+          "Reducción de la complejidad del modelo",
+          "Uso de más capas en la red neuronal"
+        ],
+        "respuestaCorrecta": "Aumento de datos (Data Augmentation)"
+      },
+      {
+        "pregunta": "¿En qué sector se utiliza frecuentemente Machine Learning para la personalización de recomendaciones de productos?",
+        "opciones": [
+          "Medicina",
+          "Finanzas",
+          "Tecnología",
+          "Marketing"
+        ],
+        "respuestaCorrecta": "Marketing"
+      },
+      {
+        "pregunta": "¿Qué tipo de algoritmo de Machine Learning se usa comúnmente para la clasificación de imágenes?",
+        "opciones": [
+          "K-Nearest Neighbors (KNN)",
+          "Redes Neuronales Convolucionales (CNN)",
+          "Regresión Lineal",
+          "Árboles de Decisión"
+        ],
+        "respuestaCorrecta": "Redes Neuronales Convolucionales (CNN)"
+      },
+      {
+        "pregunta": "¿Cuál es el principal objetivo del preprocesamiento de datos en Machine Learning?",
+        "opciones": [
+          "Mejorar la precisión del modelo",
+          "Reducir el tiempo de entrenamiento",
+          "Facilitar la compresión de datos",
+          "Transformar los datos para su uso en el modelo"
+        ],
+        "respuestaCorrecta": "Transformar los datos para su uso en el modelo"
+      },
+      {
+        "pregunta": "¿Cuál es el principal objetivo del preprocesamiento de datos en Machine Learning?",
+        "opciones": [
+          "Mejorar la precisión del modelo",
+          "Reducir el tiempo de entrenamiento",
+          "Facilitar la compresión de datos",
+          "Transformar los datos para su uso en el modelo"
+        ],
+        "respuestaCorrecta": "Transformar los datos para su uso en el modelo"
+      },
+      {
+        "pregunta": "¿Cuál es el propósito principal de la limpieza de datos?",
+        "opciones": [
+          "Optimizar el rendimiento del sistema",
+          "Eliminar o corregir errores e inconsistencias en los datos",
+          "Reducir el tamaño de los datos",
+          "Aumentar la velocidad de procesamiento"
+        ],
+        "respuestaCorrecta": "Eliminar o corregir errores e inconsistencias en los datos"
+      },
+      {
+        "pregunta": "¿Qué técnica se usa comúnmente para manejar valores faltantes en un conjunto de datos?",
+        "opciones": [
+          "Imputación de valores",
+          "Normalización de datos",
+          "Compresión de datos",
+          "Escalado de características"
+        ],
+        "respuestaCorrecta": "Imputación de valores"
+      },
+      {
+        "pregunta": "¿Qué representa la detección de valores atípicos en la limpieza de datos?",
+        "opciones": [
+          "Identificación de patrones ocultos",
+          "Identificación de valores que se desvían significativamente del resto de los datos",
+          "Reformateo de los datos",
+          "Reducción del tamaño de los datos"
+        ],
+        "respuestaCorrecta": "Identificación de valores que se desvían significativamente del resto de los datos"
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes es una técnica para eliminar duplicados en un conjunto de datos?",
+        "opciones": [
+          "Filtrado",
+          "Agrupamiento",
+          "Remoción de registros repetidos",
+          "Clasificación de datos"
+        ],
+        "respuestaCorrecta": "Remoción de registros repetidos"
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes NO es una etapa en el proceso de limpieza de datos?",
+        "opciones": [
+          "Detección de errores",
+          "Corrección de inconsistencias",
+          "Entrenamiento del modelo",
+          "Imputación de valores faltantes"
+        ],
+        "respuestaCorrecta": "Entrenamiento del modelo"
+      },
+      {
+        "pregunta": "¿Qué impacto tiene una adecuada limpieza de datos en un modelo de machine learning?",
+        "opciones": [
+          "Aumenta la complejidad del modelo",
+          "Reduce la precisión del modelo",
+          "Mejora la calidad de los datos de entrada, aumentando la precisión",
+          "Disminuye el tiempo de entrenamiento sin mejorar la calidad"
+        ],
+        "respuestaCorrecta": "Mejora la calidad de los datos de entrada, aumentando la precisión"
+      },
+      {
+        "pregunta": "¿Qué técnica se utiliza para estandarizar las escalas de los datos?",
+        "opciones": [
+          "Imputación de valores",
+          "Escalado de características",
+          "Reducción de dimensionalidad",
+          "Detección de valores atípicos"
+        ],
+        "respuestaCorrecta": "Escalado de características"
+      },
+      {
+        "pregunta": "¿Cuál de las siguientes tareas no forma parte del preprocesamiento de datos?",
+        "opciones": [
+          "Transformación de características",
+          "Imputación de valores",
+          "Evaluación del modelo",
+          "Normalización de datos"
+        ],
+        "respuestaCorrecta": "Evaluación del modelo"
+      },
+      {
+        "pregunta": "¿Qué es la imputación de datos en el contexto de la limpieza de datos?",
+        "opciones": [
+          "El proceso de eliminar valores atípicos",
+          "El proceso de llenar valores faltantes con estimaciones o promedios",
+          "La técnica de agrupar datos similares",
+          "La reducción del tamaño de los datos para mejorar el rendimiento"
+        ],
+        "respuestaCorrecta": "El proceso de llenar valores faltantes con estimaciones o promedios"
+      },
+      {
+        "pregunta": "¿Cuál es el propósito principal de un árbol de decisión en el aprendizaje automático?",
+        "opciones": [
+          "Optimización de datos",
+          "Detección de anomalías",
+          "Clasificación y predicción",
+          "Compresión de datos"
+        ],
+        "respuestaCorrecta": "Clasificación y predicción"
+    },
+    {
+        "pregunta": "¿Qué estructura sigue un árbol de decisión?",
+        "opciones": [
+          "Lineal",
+          "Jerárquica",
+          "Matriz",
+          "Circular"
+        ],
+        "respuestaCorrecta": "Jerárquica"
+    },
+    {
+        "pregunta": "¿Qué representa una hoja en un árbol de decisión?",
+        "opciones": [
+          "Un nodo de decisión",
+          "Un camino sin salida",
+          "Una característica o atributo",
+          "Un resultado o predicción final"
+        ],
+        "respuestaCorrecta": "Un resultado o predicción final"
+    },
+    {
+        "pregunta": "¿Qué criterio se usa comúnmente para dividir los nodos en un árbol de decisión?",
+        "opciones": [
+          "Algoritmo K-means",
+          "Índice de Gini o entropía",
+          "Regresión lineal",
+          "Algoritmo de Dijkstra"
+        ],
+        "respuestaCorrecta": "Índice de Gini o entropía"
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes NO es una ventaja de los árboles de decisión?",
+        "opciones": [
+          "Fácil interpretación",
+          "Manejo de datos categóricos y numéricos",
+          "Fácil de visualizar",
+          "Alta precisión en grandes conjuntos de datos"
+        ],
+        "respuestaCorrecta": "Alta precisión en grandes conjuntos de datos"
+    },
+    {
+        "pregunta": "¿Cuál es el principal objetivo del preprocesamiento de datos en Machine Learning?",
+        "opciones": [
+          "Mejorar la precisión del modelo",
+          "Reducir el tiempo de entrenamiento",
+          "Facilitar la compresión de datos",
+          "Transformar los datos para su uso en el modelo"
+        ],
+        "respuestaCorrecta": "Transformar los datos para su uso en el modelo"
+    },
+    {
+        "pregunta": "¿Qué técnica de poda se utiliza para evitar el sobreajuste en un árbol de decisión?",
+        "opciones": [
+          "Poda temprana",
+          "Poda por reducción de error",
+          "Poda mínima",
+          "Poda completa"
+        ],
+        "respuestaCorrecta": "Poda temprana"
+    },
+    {
+        "pregunta": "¿Qué tipo de aprendizaje supervisado se puede utilizar en un árbol de decisión?",
+        "opciones": [
+          "Clasificación",
+          "Clustering",
+          "Reducción de dimensionalidad",
+          "Análisis de componentes principales"
+        ],
+        "respuestaCorrecta": "Clasificación"
+    },
+    {
+        "pregunta": "¿Cómo se mide la pureza de un nodo en un árbol de decisión?",
+        "opciones": [
+          "Matriz de confusión",
+          "Índice de Gini o entropía",
+          "Media cuadrática",
+          "Máximo común divisor"
+        ],
+        "respuestaCorrecta": "Índice de Gini o entropía"
+    },
+    {
+        "pregunta": "¿Cuál es el principal problema del crecimiento sin control de un árbol de decisión?",
+        "opciones": [
+          "Aumenta la precisión del modelo",
+          "Se reduce el tiempo de entrenamiento",
+          "Sobrefitting (sobreajuste)",
+          "Mejora la generalización"
+        ],
+        "respuestaCorrecta": "Sobrefitting (sobreajuste)"
+    },
+    {
+      "pregunta": "¿Cuál es el propósito principal de una Máquina de Vectores de Soporte (SVM) en el aprendizaje automático?",
+      "opciones": [
+        "Optimización de datos",
+        "Detección de anomalías",
+        "Clasificación y regresión",
+        "Compresión de datos"
+      ],
+      "respuestaCorrecta": "Clasificación y regresión"
+    },
+    {
+      "pregunta": "¿Qué estructura define el límite de decisión en una SVM?",
+      "opciones": [
+        "Lineal",
+        "Jerárquica",
+        "Hiperplano",
+        "Curva de decisión"
+      ],
+      "respuestaCorrecta": "Hiperplano"
+    },
+    {
+      "pregunta": "¿Qué representan los vectores de soporte en una SVM?",
+      "opciones": [
+        "Los datos que no influyen en la clasificación",
+        "Los puntos más alejados del hiperplano",
+        "Los puntos más cercanos al hiperplano que definen su posición",
+        "Los datos fuera de las clases conocidas"
+      ],
+      "respuestaCorrecta": "Los puntos más cercanos al hiperplano que definen su posición"
+    },
+    {
+      "pregunta": "¿Qué técnica permite a una SVM manejar datos no lineales?",
+      "opciones": [
+        "Regresión logística",
+        "K-Nearest Neighbors",
+        "Función de Kernel",
+        "Poda de nodos"
+      ],
+      "respuestaCorrecta": "Función de Kernel"
+    },
+    {
+      "pregunta": "¿Cuál de las siguientes NO es una ventaja de las SVM?",
+      "opciones": [
+        "Eficiencia en problemas de alta dimensionalidad",
+        "Capacidad para manejar datos lineales y no lineales",
+        "Facilidad de interpretación en comparación con árboles de decisión",
+        "Uso de vectores de soporte para definir el hiperplano"
+      ],
+      "respuestaCorrecta": "Facilidad de interpretación en comparación con árboles de decisión"
+    },
+    {
+      "pregunta": "¿Cuál es el principal objetivo del preprocesamiento de datos en Machine Learning?",
+      "opciones": [
+        "Mejorar la precisión del modelo",
+        "Reducir el tiempo de entrenamiento",
+        "Facilitar la compresión de datos",
+        "Transformar los datos para su uso en el modelo"
+      ],
+      "respuestaCorrecta": "Transformar los datos para su uso en el modelo"
+    },
+    {
+      "pregunta": "¿Qué tipo de problemas resuelve una SVM?",
+      "opciones": [
+        "Problemas de clustering",
+        "Problemas de clasificación y regresión",
+        "Problemas de regresión exclusivamente",
+        "Problemas de detección de outliers"
+      ],
+      "respuestaCorrecta": "Problemas de clasificación y regresión"
+    },
+    {
+      "pregunta": "¿Cuál es la función de los kernels en una SVM?",
+      "opciones": [
+        "Ajustar el hiperplano en el espacio de características",
+        "Transformar datos no lineales en espacios lineales",
+        "Mejorar la eficiencia del entrenamiento",
+        "Reducir el tamaño de los datos"
+      ],
+      "respuestaCorrecta": "Transformar datos no lineales en espacios lineales"
+    },
+    {
+      "pregunta": "¿Cuál de los siguientes problemas se puede abordar con una SVM?",
+      "opciones": [
+        "Clasificación de correos electrónicos como spam o no spam",
+        "Agrupación de datos no etiquetados",
+        "Predicción de valores continuos",
+        "Análisis de componentes principales"
+      ],
+      "respuestaCorrecta": "Clasificación de correos electrónicos como spam o no spam"
+    },
+    {
+      "pregunta": "¿Cuál es una de las características principales de las SVM?",
+      "opciones": [
+        "Requiere una gran cantidad de datos de entrenamiento",
+        "Es eficiente en problemas de alta dimensionalidad",
+        "Tiene baja capacidad de generalización",
+        "No puede manejar datos no lineales"
+      ],
+      "respuestaCorrecta": "Es eficiente en problemas de alta dimensionalidad"
+    }
+    ]
+  }
