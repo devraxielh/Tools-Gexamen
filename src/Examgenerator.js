@@ -132,22 +132,10 @@ const GeneradorExamen = () => {
         },
         children: [
           new Paragraph({
-            text: `Examen: ${nombreExamen}`, // Se muestra el nombre del examen extraído del JSON
-            heading: 'Heading2',
+            text: `${nombreExamen}  Nombre: ______________________________________ Fecha ___/___/___`, // Se muestra el nombre del examen extraído del JSON
+            heading: 'Heading4',
             spacing: {
-              after: 300,
-            },
-          }),
-          new Paragraph({
-            text: `Nombre: ___________________________`,
-            spacing: {
-              after: 200,
-            },
-          }),
-          new Paragraph({
-            text: `Fecha: ____________________________`,
-            spacing: {
-              after: 200,
+              after: 100,
             },
           }),
           // Tabla de dos columnas con las preguntas y opciones
